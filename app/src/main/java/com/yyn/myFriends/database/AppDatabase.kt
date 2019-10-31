@@ -1,15 +1,15 @@
-package com.tfkbudi.myFriends.database
+package com.yyn.myFriends.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.tfkbudi.myFriends.model.Friend
+import com.yyn.myFriends.model.Friend
 
 /**
- * Created on : 18/05/19
- * Author     : Taufik Budi S
- * GitHub     : https://github.com/tfkbudi
+ * Created on : 31/10/19
+ * Author     : Yayan Adipraja
+ * GitHub     : https://github.com/yandz
  */
 @Database(entities = [Friend::class], version = 1)
 abstract class AppDatabase: RoomDatabase() {
